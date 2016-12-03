@@ -1,4 +1,4 @@
-// Copyright © 2016 Shigeyuki Fujishima <shigeyuki.fujishima@gmail.com>
+// Copyright 息 2016 Shigeyuki Fujishima <shigeyuki.fujishima@gmail.com>
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -15,6 +15,10 @@
 package main
 
 import "github.com/sgykfjsm/cobra-viper-sample/cmd"
+
+var (
+	version string
+)
 
 func main() {
 	cmd.Execute()
